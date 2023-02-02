@@ -7,7 +7,7 @@ function addLap() {
     lapsCompleted = lapsCompleted + 1
     console.log(lapsCompleted)
 }
-
-
-console.log(lapsCompleted)
 addLap()
+addLap()
+addLap()
+console.log(lapsCompleted)
