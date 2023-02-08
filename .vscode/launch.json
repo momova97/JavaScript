@@ -1,11 +1,17 @@
 {
-  "version": "0.2.0",
+  "version": "0.1.0",
   "configurations": [
-    {
-      "type": "msedge",
-      "request": "launch",
-      "name": "Launch my cool app",
-      "url": "http://localhost:5000"
-    }
+      {
+          "type": "devtools-for-chrome",
+          "request": "launch",
+          "name": "Launch Chrome DevTools",
+          "file": "${workspaceFolder}/index.html"
+      },
+      {
+          "type": "devtools-for-chrome",
+          "request": "attach",
+          "name": "Attach Chrome DevTools",
+          "url": "http://localhost:8000/"
+      }
   ]
 }
