@@ -5,7 +5,7 @@
       "type": "msedge",
       "request": "launch",
       "name": "Launch my cool app",
-      "url": "http://localhost:8000"
+      "url": "http://localhost:5000"
     }
   ]
 }
