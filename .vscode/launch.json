@@ -1,13 +1,11 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-        
-      {
-        "type": "node",
-        "request": "launch",
-        "name": "Launch Program",
-        "skipFiles": ["<node_internals>/**"],
-        "program": "${workspaceFolder}\\index.js"
-      }
-    ]
-  }
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "msedge",
+      "request": "launch",
+      "name": "Launch my cool app",
+      "url": "http://localhost:8000"
+    }
+  ]
+}
