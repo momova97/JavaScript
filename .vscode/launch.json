@@ -1,17 +1,12 @@
 {
-  "version": "0.1.0",
-  "configurations": [
-      {
-          "type": "devtools-for-chrome",
-          "request": "launch",
-          "name": "Launch Chrome DevTools",
-          "file": "${workspaceFolder}/index.html"
-      },
-      {
-          "type": "devtools-for-chrome",
-          "request": "attach",
-          "name": "Attach Chrome DevTools",
-          "url": "http://localhost:8000/"
-      }
-  ]
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Chrome",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceRoot}/src"
+        }
+    ]
 }
